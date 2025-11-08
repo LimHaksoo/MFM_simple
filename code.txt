@@ -1,0 +1,3 @@
+mkdir -p /data3/jisu/datasets
+
+python train.py --single_root /data3/jisu/MFM/datasets/VisA --single_name visa --epochs 2 --batch_size 8 --amp
